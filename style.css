@@ -1,0 +1,168 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+  }
+  
+  /*header styling*/
+  .header-container {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+  }
+  
+  .logo {
+    height: 50px;
+    padding: 0 10px;
+  }
+  
+  /*styling the list*/
+  .breadcrumb {
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  .breadcrumb li {
+    display: inline;
+    padding: 5px;
+    text-decoration: underline;
+  }
+  
+  .breadcrumb li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /*main container*/
+  .container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 69px;
+    opacity: 0.9;
+  }
+  
+  /*our mission styling*/
+  .mission {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*c48e2f*_gcl_aw*R0NMLjE3MjcwNDMwMDcuQ2owS0NRandnTC0zQmhEbkFSSXNBTDZLWjY5NzJONHVyblRsR3BNRGZSbzFZY1BkbGFmaEd0YjkySzZ0Q2UteGVCT1dyRGNFLWlZVkhhVWFBbmNJRUFMd193Y0I.*_gcl_au*MTk1NTU0OTM4MS4xNzI3MDQzMDA3*_ga*MTc3NjgyODE2OC4xNzI3MDQ4NzU1*_ga_3LRZM6TM9L*MTcyOTkwNzYwNC4xMi4xLjE3Mjk5MTE3NTIuNjAuMC4w);
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .mission-text {
+    background-color: black;
+    text-align: center;
+    box-shadow: 0 0 0 20px black;
+    padding:0;
+    line-height:20px;
+  }
+  
+  /* tea styling */
+  .tea-header{
+    text-align: center;
+    width: 100%;
+    line-height: 20px;
+    padding: 10px;
+    padding-top: 20px;
+  }
+
+  .tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 1000px;
+  }
+  
+  .tea-type {
+    height: 250px;
+    width: 300px;
+    margin: 1%;
+    text-align: center;
+    padding-bottom: 18px;
+    
+  }
+
+  #img1, #img2, #img3, #img4, #img5 {
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 0;
+  }
+  
+  #img1 {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg?_gl=1*136obo0*_gcl_aw*R0NMLjE3Mjk1NDg1MjMuQ2owS0NRanc5OWU0QmhEaUFSSXNBSVNFN1A5N2o5LTNxaHlqZjZBZmZvbUpHRTNBNVZuMzNhYS01RldMZ1Nxa2ZUZkxQVFVXOEVwTlhvc2FBc0VuRUFMd193Y0I.*_gcl_au*MTE1ODY2ODAxMy4xNzI1ODY1MTU1*_ga*ODk5ODE4NjU3LjE3MjU4NjUxNDY.*_ga_3LRZM6TM9L*MTczMDEwNDgzNy4zMy4xLjE3MzAxMDQ5ODIuMzguMC4w);
+  }
+
+  #img2 {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg?_gl=1*136obo0*_gcl_aw*R0NMLjE3Mjk1NDg1MjMuQ2owS0NRanc5OWU0QmhEaUFSSXNBSVNFN1A5N2o5LTNxaHlqZjZBZmZvbUpHRTNBNVZuMzNhYS01RldMZ1Nxa2ZUZkxQVFVXOEVwTlhvc2FBc0VuRUFMd193Y0I.*_gcl_au*MTE1ODY2ODAxMy4xNzI1ODY1MTU1*_ga*ODk5ODE4NjU3LjE3MjU4NjUxNDY.*_ga_3LRZM6TM9L*MTczMDEwNDgzNy4zMy4xLjE3MzAxMDQ5ODIuMzguMC4w);
+  }
+
+  #img3 {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg?_gl=1*136obo0*_gcl_aw*R0NMLjE3Mjk1NDg1MjMuQ2owS0NRanc5OWU0QmhEaUFSSXNBSVNFN1A5N2o5LTNxaHlqZjZBZmZvbUpHRTNBNVZuMzNhYS01RldMZ1Nxa2ZUZkxQVFVXOEVwTlhvc2FBc0VuRUFMd193Y0I.*_gcl_au*MTE1ODY2ODAxMy4xNzI1ODY1MTU1*_ga*ODk5ODE4NjU3LjE3MjU4NjUxNDY.*_ga_3LRZM6TM9L*MTczMDEwNDgzNy4zMy4xLjE3MzAxMDQ5ODIuMzguMC4w);
+  }
+
+  #img4 {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg?_gl=1*17p6vvi*_gcl_aw*R0NMLjE3Mjk1NDg1MjMuQ2owS0NRanc5OWU0QmhEaUFSSXNBSVNFN1A5N2o5LTNxaHlqZjZBZmZvbUpHRTNBNVZuMzNhYS01RldMZ1Nxa2ZUZkxQVFVXOEVwTlhvc2FBc0VuRUFMd193Y0I.*_gcl_au*MTE1ODY2ODAxMy4xNzI1ODY1MTU1*_ga*ODk5ODE4NjU3LjE3MjU4NjUxNDY.*_ga_3LRZM6TM9L*MTczMDEwNDgzNy4zMy4xLjE3MzAxMDQ5ODIuMzguMC4w);
+  }
+
+  #img5 {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg?_gl=1*4ab01k*_gcl_aw*R0NMLjE3Mjk1NDg1MjMuQ2owS0NRanc5OWU0QmhEaUFSSXNBSVNFN1A5N2o5LTNxaHlqZjZBZmZvbUpHRTNBNVZuMzNhYS01RldMZ1Nxa2ZUZkxQVFVXOEVwTlhvc2FBc0VuRUFMd193Y0I.*_gcl_au*MTE1ODY2ODAxMy4xNzI1ODY1MTU1*_ga*ODk5ODE4NjU3LjE3MjU4NjUxNDY.*_ga_3LRZM6TM9L*MTczMDEwNDgzNy4zMy4xLjE3MzAxMDQ5ODIuMzguMC4w);
+  }
+
+    /*locations styling  */
+  .locations {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+    flex: 1 1 1200px;
+    text-align: center;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1qmgsb5*_gcl_aw*R0NMLjE3Mjk1NDg1MjMuQ2owS0NRanc5OWU0QmhEaUFSSXNBSVNFN1A5N2o5LTNxaHlqZjZBZmZvbUpHRTNBNVZuMzNhYS01RldMZ1Nxa2ZUZkxQVFVXOEVwTlhvc2FBc0VuRUFMd193Y0I.*_gcl_au*MTE1ODY2ODAxMy4xNzI1ODY1MTU1*_ga*ODk5ODE4NjU3LjE3MjU4NjUxNDY.*_ga_3LRZM6TM9L*MTczMDEwNDgzNy4zMy4xLjE3MzAxMDQ5ODIuMzguMC4w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+  }
+
+  .box {
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: black;
+    opacity: 1;
+    margin: 1% auto;
+    line-height: 40px;
+  }
+
+  .locations-heading {
+    width: 100%;
+  }
+
+  .footer {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .copyright {
+    margin-left: 20px;
+    align-items: start;
+    opacity: 0.5;
+  }
+
